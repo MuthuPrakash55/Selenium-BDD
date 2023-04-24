@@ -20,8 +20,8 @@
 Feature: Verify that User can able to 
 				add multiple mobiles in to cart
 
- 	 @Vivo @mobile
-Scenario Outline: Verify that User Can able to add cart Vivo mobile
+ 	@Vivo @mobile
+	Scenario: Verify that User Can able to add cart Vivo mobile
     Given User can open "edge" browser
     Then User can open application url "https://www.amazon.in/"
     And  Verify that user landed in right application
@@ -32,8 +32,8 @@ Scenario Outline: Verify that User Can able to add cart Vivo mobile
     Then User selected quantity "2"
     And User able to click Add to Cart
     
-      @Oppo @mobile
-    Scenario: Verify that User Can able to add cart Vivo mobile
+   @Oppo @mobile
+   Scenario: Verify that User Can able to add cart Vivo mobile
     Given User can open "edge" browser
     Then User can open application url "https://www.amazon.in/"
     And  Verify that user landed in right application
