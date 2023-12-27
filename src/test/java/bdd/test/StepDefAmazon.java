@@ -71,6 +71,7 @@ public class StepDefAmazon {
 			driver.switchTo().window(windowId);
 			if(pageTitle.contains(driver.getTitle()))
 			{
+				driver.switchTo().defaultContent();
 				break;
 			}
 		}
